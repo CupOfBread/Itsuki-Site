@@ -22,7 +22,7 @@ onMounted(() => {
     <div class="coming-page-info-6">
       <div class="wrapper">
         <div class="coming-block">
-          <h1>星谷樹 Itsuki</h1>
+          <h1 class="animate__animated animate__rubberBand">星谷樹 Itsuki</h1>
           <p>热爱唱歌的树精灵</p>
           <div class="countdown">
             <div class="countdown__days">
