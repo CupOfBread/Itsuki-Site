@@ -1,14 +1,19 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
 #app {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'Source Han Serif',
+    'source-han-serif-sc', 'PT Serif', 'SongTi SC', 'MicroSoft Yahei', Georgia,
+    serif;
+  cursor: url(https://cdn.jsdelivr.net/gh/xiabo2/vieu@master/S1.cur), default;
 }
